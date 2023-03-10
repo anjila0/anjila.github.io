@@ -13,7 +13,7 @@ $(".slider").slick({
         arrows: false,
         centerMode: true,
         centerPadding: "40px",
-        slidesToShow: 3,
+        slidesToShow: 2,
       },
     },
     {
@@ -38,8 +38,8 @@ $(".lp-featured-products").slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: "40px",
-        slidesToShow: 3,
+        centerPadding: "20px",
+        slidesToShow: 2,
       },
     },
     {
@@ -47,7 +47,7 @@ $(".lp-featured-products").slick({
       settings: {
         arrows: true,
         centerMode: true,
-        centerPadding: "40px",
+        centerPadding: "20px",
         slidesToShow: 1,
       },
     },
@@ -56,7 +56,7 @@ $(".lp-featured-products").slick({
 
 $(".testimonial-content").slick({
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
